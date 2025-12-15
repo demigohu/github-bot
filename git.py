@@ -24,7 +24,7 @@ os.system('git commit -m "Initial commit"')
 
 for i in range(NUM_COMMITS):
     # Generate random month and day offset
-    month = random.randint(1, 12)
+    month = random.randint(10, 11)
     day_offset = i % 28 + 1  # Ensures the day is between 1 and 28 to avoid invalid dates
 
     # Construct the commit date string
